@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Echo</string>
+    <string name="subtitle">Repeats exactly what you type or say. Works offline.</string>
+    <string name="input_hint">Type here…</string>
+    <string name="echo">Echo</string>
+    <string name="mic">🎤 Mic</string>
+    <string name="mic_stop">⏹ Stop</string>
+    <string name="clear">Clear</string>
+    <string name="output_label">Output</string>
+    <string name="copy">Copy</string>
+    <string name="speak">🔊 Speak</string>
+
+    <string name="copied">Copied.</string>
+    <string name="nothing_to_echo">Type something first, then press Echo.</string>
+    <string name="nothing_to_copy">Nothing to copy yet. Press Echo first.</string>
+    <string name="nothing_to_speak">Nothing to speak yet. Press Echo first.</string>
+
+    <string name="listening">Listening… (offline recognizer)</string>
+    <string name="heard_nothing">Nothing was recognized. Try again, or type your text instead.</string>
+    <string name="mic_needs_android13">Offline voice input needs Android 13 or newer, because older Android versions cannot guarantee that speech stays on the phone. Please type your text instead.</string>
+    <string name="mic_no_offline">This phone has no offline speech recognizer installed, so voice input is turned off (the app never uses an online service). Please type your text instead, or install an offline speech language pack in your phone\'s settings.</string>
+    <string name="mic_denied">Microphone permission was not given. Voice input is off; text echo still works.</string>
+    <string name="mic_language_missing">The offline speech pack for your language is not installed. Please type your text instead.</string>
+    <string name="mic_error">Voice input failed (code %1$d). Please type your text instead.</string>
+
+    <string name="tts_unavailable">No text-to-speech engine is available on this phone.</string>
+    <string name="tts_no_offline_voice">No offline voice is installed for this language. Echo never downloads voices; you can install one in your phone\'s text-to-speech settings.</string>
+</resources>
